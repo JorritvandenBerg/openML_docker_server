@@ -7,7 +7,8 @@ Server for OPENML website
 3. Clone this repository
 4. Copy the common.sample.env file as common.env
 5. Open the common.env file and set OPENML_HOST to your (sub)domain name when deploying on a server (otherwise keep it localhost:3000)
-6. Visit Localhost:3000 or the (sub)domain on which you deployed OpenML
+6. Optionally set the protocol with OPENML_PROTOCOL to https (defaults to http)
+7. Visit Localhost:3000 or the (sub)domain on which you deployed OpenML
 
 OpenML: Open Machine Learning
 =============================
