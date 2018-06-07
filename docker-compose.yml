@@ -8,12 +8,17 @@ services:
       MYSQL_DATABASE: openml
     network_mode: bridge
 
+  elasticsearch:
+    image: elasticsearch:5
+    network_mode: bridge
+
   website:
     build: ./apache
     ports:
       - 3000:80
     links:
       - mysql:mysql
+      - elasticsearch:elasticsearch
     env_file:
       - ./common.env
     network_mode: bridge

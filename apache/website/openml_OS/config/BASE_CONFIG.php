@@ -112,9 +112,9 @@ define( 'API_KEY', '1be72ebba74605506ce399c636f8376a' );
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * API_PASSWORD: The password that belongs to the username
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-define( 'ES_URL', 'FILL_IN' );
-define( 'ES_USERNAME', 'FILL_IN' );
-define( 'ES_PASSWORD', 'FILL_IN' );
+define( 'ES_URL', 'elasticsearch' );
+define( 'ES_USERNAME', 'elastic' );
+define( 'ES_PASSWORD', 'changeme' );
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
