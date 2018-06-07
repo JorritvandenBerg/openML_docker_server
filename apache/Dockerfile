@@ -32,8 +32,7 @@ ENV PATH $COMPOSER_HOME/vendor/bin:$PATH
 
 
 RUN a2enmod rewrite
-RUN service apache2 restart
+COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
-RUN ln -sf /dev/stdout /var/log/apache2/access.log
-
-RUN ln -sf /dev/stderr /var/log/apache2/error.log
+CMD /entrypoint.sh

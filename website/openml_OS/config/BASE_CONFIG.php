@@ -16,7 +16,7 @@ setlocale(LC_TIME, 'America/Los_Angeles');
  * of OpenML, this would be http://www.openml.org/. For an instance on
  * a localhost, this would be http://localhost/.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-define( 'BASE_URL', 'http://localhost:3000/' );
+define( 'BASE_URL', 'http://openml.tnodatalab.nl/' );
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * DATA_URL: The subdirectory where the data can be accessed. Will be

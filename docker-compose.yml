@@ -11,13 +11,15 @@ services:
     network_mode: bridge
 
   website:
-    build: ./
+    build: ./apache
     ports:
       - 3000:80
     volumes: 
       - ./website:/var/www/html
     depends_on:
       - mysql
+    env_file:
+      - ./common.env
     network_mode: bridge
 
 networks:
