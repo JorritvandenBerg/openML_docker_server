@@ -12,8 +12,8 @@ services:
     build: ./apache
     ports:
       - 3000:80
-    depends_on:
-      - mysql
+    links:
+      - mysql:mysql
     env_file:
       - ./common.env
     network_mode: bridge
