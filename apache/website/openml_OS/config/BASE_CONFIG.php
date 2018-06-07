@@ -134,13 +134,13 @@ define( 'CMD_PREFIX', '');
  * EMAIL_FROM: The email address from which the emails will be send.
  * Use the domain name specified in the BASE_URL
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-define( 'EMAIL_FROM', 'noreply@openml.org' );
+define( 'EMAIL_FROM', 'EMAIL_FROM_ADDRESS' );
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * EMAIL_API_LOG: The email address to which critical API errors 
  * get reported
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-define( 'EMAIL_API_LOG', 'api@openml.org' );
+define( 'EMAIL_API_LOG', 'EMAIL_API_LOG_ADDRESS' );
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * DISQUS_USERNAME: The username for the discuss plug-in.
