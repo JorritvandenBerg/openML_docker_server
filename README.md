@@ -4,8 +4,10 @@ Server for OPENML website
 ## Installation:
 1. Download Docker from https://www.docker.com/what-docker
 2. Run Docker.
-3. Clone this repository and simply run **docker-compose up** in your terminal in the directory where the repository is cloned.
-4. Visit Localhost:3000
+3. Clone this repository
+4. Copy the common.sample.env file as common.env
+5. Open the common.env file and set OPENML_HOST to your (sub)domain name when deploying on a server (otherwise keep it localhost:3000)
+6. Visit Localhost:3000 or the (sub)domain on which you deployed OpenML
 
 OpenML: Open Machine Learning
 =============================
